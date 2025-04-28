@@ -39,13 +39,17 @@ Results are displayed side-by-side for easy exploration and selection.
 
 ## Setup Instructions
 📂 Clone the repository:
+
 git clone <repository-link>
+
 cd StyleMate
 
 📦 Install the required packages:
+
 pip install -r requirements.txt
 
 🗂️ Make sure the following files are present:
+
 🔹embeddings.pkl (precomputed feature vectors)
 
 🔹filenames.pkl (corresponding filenames)
@@ -55,6 +59,7 @@ pip install -r requirements.txt
 🔹Image dataset under appropriate folder (or adjust paths)
 
 🚀 Run the application:
+
 streamlit run main.py
 
 🖼️ Upload a fashion image and enjoy the recommendations!
@@ -62,11 +67,17 @@ streamlit run main.py
 ## File Structure
 
 ├── app.ipynb           # Notebook for experimentation
+
 ├── main.py             # Main Streamlit application
+
 ├── styles.csv          # Dataset metadata
+
 ├── filenames.pkl       # Filenames for dataset images
+
 ├── embeddings.pkl      # Precomputed image features
+
 ├── uploads/            # Directory for uploaded images
+
 ├── README.md           # Project documentation
 
 ## Future Improvements
