@@ -40,7 +40,7 @@ Results are displayed side-by-side for easy exploration and selection.
 ## Setup Instructions
 📂 Clone the repository:
 
-git clone <repository-link>
+git clone https://github.com/Virnit2311/Fashion-Recommendation-System
 
 cd StyleMate
 
